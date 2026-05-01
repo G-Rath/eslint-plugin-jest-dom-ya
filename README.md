@@ -4,6 +4,8 @@
 <p>ESLint plugin to follow best practices and anticipate common mistakes when writing tests with jest-dom.</p>
 </div>
 
+This is a fork of the original `eslint-plugin-jest-dom`, which was abandonded.
+
 ---
 
 <!-- prettier-ignore-start -->
@@ -41,6 +43,12 @@ should be installed as one of your project's `devDependencies`:
 
 ```
 npm install --save-dev eslint-plugin-jest-dom-ya
+```
+
+You can also use an alias to help with migrating:
+
+```
+npm install --save-dev eslint-plugin-jest-dom@npm:eslint-plugin-jest-dom-ya
 ```
 
 This library has a required `peerDependencies` listing for [`ESLint`](https://eslint.org/).
