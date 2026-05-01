@@ -1,4 +1,4 @@
-# Prefer toBeEmpty over checking innerHTML (`jest-dom/prefer-empty`)
+# Prefer toBeEmpty over checking innerHTML (`jest-dom-ya/prefer-empty`)
 
 💼 This rule is enabled in the ✅ `recommended` config.
 

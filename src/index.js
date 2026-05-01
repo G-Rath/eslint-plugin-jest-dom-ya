@@ -23,7 +23,7 @@ export const rules = requireIndex(`${__dirname}/rules`);
 const allRules = Object.entries(rules).reduce(
   (memo, [name]) => ({
     ...memo,
-    ...{ [`jest-dom/${name}`]: "error" },
+    ...{ [`jest-dom-ya/${name}`]: "error" },
   }),
   {}
 );
@@ -37,11 +37,11 @@ const plugin = {
   },
   configs: {
     recommended: {
-      plugins: ["jest-dom"],
+      plugins: ["jest-dom-ya"],
       rules: recommendedRules,
     },
     all: {
-      plugins: ["jest-dom"],
+      plugins: ["jest-dom-ya"],
       rules: allRules,
     },
   },
@@ -49,11 +49,11 @@ const plugin = {
 };
 
 plugin.configs["flat/recommended"] = {
-  plugins: { "jest-dom": plugin },
+  plugins: { "jest-dom-ya": plugin },
   rules: recommendedRules,
 };
 plugin.configs["flat/all"] = {
-  plugins: { "jest-dom": plugin },
+  plugins: { "jest-dom-ya": plugin },
   rules: allRules,
 };
 

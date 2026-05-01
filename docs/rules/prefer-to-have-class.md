@@ -1,4 +1,4 @@
-# Prefer toHaveClass over checking element className (`jest-dom/prefer-to-have-class`)
+# Prefer toHaveClass over checking element className (`jest-dom-ya/prefer-to-have-class`)
 
 💼 This rule is enabled in the ✅ `recommended` config.
 

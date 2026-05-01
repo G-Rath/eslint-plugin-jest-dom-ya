@@ -1,5 +1,5 @@
 <div align="center">
-<h1>eslint-plugin-jest-dom</h1>
+<h1>eslint-plugin-jest-dom-ya</h1>
 
 <p>ESLint plugin to follow best practices and anticipate common mistakes when writing tests with jest-dom.</p>
 </div>
@@ -40,7 +40,7 @@ This module is distributed via [npm][npm] which is bundled with [node][node] and
 should be installed as one of your project's `devDependencies`:
 
 ```
-npm install --save-dev eslint-plugin-jest-dom
+npm install --save-dev eslint-plugin-jest-dom-ya
 ```
 
 This library has a required `peerDependencies` listing for [`ESLint`](https://eslint.org/).
@@ -58,12 +58,12 @@ This library has a required `peerDependencies` listing for [`ESLint`](https://es
 > [ESLint documentation on the new configuration file format](https://eslint.org/docs/latest/use/configure/configuration-files-new)
 > for more.
 
-Add `jest-dom` to the plugins section of your `.eslintrc.js` configuration file.
+Add `jest-dom-ya` to the plugins section of your `.eslintrc.js` configuration file.
 You can omit the `eslint-plugin-` prefix:
 
 ```javascript
 module.exports = {
-  plugins: ["jest-dom"],
+  plugins: ["jest-dom-ya"],
   rules: {
     // your configuration
   },
@@ -75,10 +75,10 @@ Then configure the rules you want to use under the rules section.
 ```javascript
 module.exports = {
   rules: {
-    "jest-dom/prefer-checked": "error",
-    "jest-dom/prefer-enabled-disabled": "error",
-    "jest-dom/prefer-required": "error",
-    "jest-dom/prefer-to-have-attribute": "error",
+    "jest-dom-ya/prefer-checked": "error",
+    "jest-dom-ya/prefer-enabled-disabled": "error",
+    "jest-dom-ya/prefer-required": "error",
+    "jest-dom-ya/prefer-to-have-attribute": "error",
   },
 };
 ```
@@ -93,7 +93,7 @@ To enable this configuration with `.eslintrc`, use the `extends` property:
 
 ```javascript
 module.exports = {
-  extends: "plugin:jest-dom/recommended",
+  extends: "plugin:jest-dom-ya/recommended",
   rules: {
     // your configuration
   },
@@ -109,7 +109,7 @@ module.exports = [
     files: [
       /* glob matching your test files */
     ],
-    ...require("eslint-plugin-jest-dom").configs["flat/recommended"],
+    ...require("eslint-plugin-jest-dom-ya").configs["flat/recommended"],
   },
 ];
 ```
@@ -166,27 +166,27 @@ Thanks goes to these people ([emoji key][emojis]):
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/benmonro"><img src="https://avatars3.githubusercontent.com/u/399236?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ben Monro</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=benmonro" title="Documentation">📖</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=benmonro" title="Code">💻</a> <a href="#example-benmonro" title="Examples">💡</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=benmonro" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://nickmccurdy.com/"><img src="https://avatars0.githubusercontent.com/u/927220?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nick McCurdy</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=nickmccurdy" title="Code">💻</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=nickmccurdy" title="Documentation">📖</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=nickmccurdy" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://twitter.com/gnapse"><img src="https://avatars0.githubusercontent.com/u/15199?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ernesto García</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=gnapse" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://chriscolborne.com"><img src="https://avatars2.githubusercontent.com/u/101371?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Colborne</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=zorfling" title="Code">💻</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=zorfling" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://michaeldeboey.be"><img src="https://avatars3.githubusercontent.com/u/6643991?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michaël De Boey</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=MichaelDeBoey" title="Code">💻</a></td>
-    <td align="center"><a href="http://gerritalex.de"><img src="https://avatars1.githubusercontent.com/u/29307652?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gerrit Alex</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=ljosberinn" title="Code">💻</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=ljosberinn" title="Tests">⚠️</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=ljosberinn" title="Documentation">📖</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/issues?q=author%3Aljosberinn" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="http://ololos.space/"><img src="https://avatars1.githubusercontent.com/u/3940079?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrey Los</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/issues?q=author%3ARIP21" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/benmonro"><img src="https://avatars3.githubusercontent.com/u/399236?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ben Monro</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=benmonro" title="Documentation">📖</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=benmonro" title="Code">💻</a> <a href="#example-benmonro" title="Examples">💡</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=benmonro" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://nickmccurdy.com/"><img src="https://avatars0.githubusercontent.com/u/927220?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nick McCurdy</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=nickmccurdy" title="Code">💻</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=nickmccurdy" title="Documentation">📖</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=nickmccurdy" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://twitter.com/gnapse"><img src="https://avatars0.githubusercontent.com/u/15199?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ernesto García</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=gnapse" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://chriscolborne.com"><img src="https://avatars2.githubusercontent.com/u/101371?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Colborne</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=zorfling" title="Code">💻</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=zorfling" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://michaeldeboey.be"><img src="https://avatars3.githubusercontent.com/u/6643991?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michaël De Boey</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=MichaelDeBoey" title="Code">💻</a></td>
+    <td align="center"><a href="http://gerritalex.de"><img src="https://avatars1.githubusercontent.com/u/29307652?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gerrit Alex</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=ljosberinn" title="Code">💻</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=ljosberinn" title="Tests">⚠️</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=ljosberinn" title="Documentation">📖</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues?q=author%3Aljosberinn" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://ololos.space/"><img src="https://avatars1.githubusercontent.com/u/3940079?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrey Los</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues?q=author%3ARIP21" title="Bug reports">🐛</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://skovy.dev"><img src="https://avatars1.githubusercontent.com/u/5247455?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Spencer Miskoviak</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=skovy" title="Code">💻</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=skovy" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/atsikov"><img src="https://avatars3.githubusercontent.com/u/1422928?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aleksei Tsikov</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/issues?q=author%3Aatsikov" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://mario.dev"><img src="https://avatars1.githubusercontent.com/u/2677072?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mario Beltrán Alarcón</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=Belco90" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://codepen.io/ariperkkio/"><img src="https://avatars2.githubusercontent.com/u/14806298?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ari Perkkiö</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/issues?q=author%3AAriPerkkio" title="Bug reports">🐛</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=AriPerkkio" title="Code">💻</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=AriPerkkio" title="Tests">⚠️</a></td>
-    <td align="center"><a href="http://www.antn.se"><img src="https://avatars0.githubusercontent.com/u/785676?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anton Niklasson</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=AntonNiklasson" title="Code">💻</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=AntonNiklasson" title="Tests">⚠️</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=AntonNiklasson" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://juzerzarif.com"><img src="https://avatars3.githubusercontent.com/u/22772637?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juzer Zarif</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=juzerzarif" title="Code">💻</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=juzerzarif" title="Tests">⚠️</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/issues?q=author%3Ajuzerzarif" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="http://everlong.org/"><img src="https://avatars.githubusercontent.com/u/454175?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Julien Wajsberg</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=julienw" title="Code">💻</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=julienw" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://skovy.dev"><img src="https://avatars1.githubusercontent.com/u/5247455?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Spencer Miskoviak</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=skovy" title="Code">💻</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=skovy" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/atsikov"><img src="https://avatars3.githubusercontent.com/u/1422928?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aleksei Tsikov</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues?q=author%3Aatsikov" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://mario.dev"><img src="https://avatars1.githubusercontent.com/u/2677072?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mario Beltrán Alarcón</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=Belco90" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://codepen.io/ariperkkio/"><img src="https://avatars2.githubusercontent.com/u/14806298?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ari Perkkiö</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues?q=author%3AAriPerkkio" title="Bug reports">🐛</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=AriPerkkio" title="Code">💻</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=AriPerkkio" title="Tests">⚠️</a></td>
+    <td align="center"><a href="http://www.antn.se"><img src="https://avatars0.githubusercontent.com/u/785676?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anton Niklasson</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=AntonNiklasson" title="Code">💻</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=AntonNiklasson" title="Tests">⚠️</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=AntonNiklasson" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://juzerzarif.com"><img src="https://avatars3.githubusercontent.com/u/22772637?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juzer Zarif</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=juzerzarif" title="Code">💻</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=juzerzarif" title="Tests">⚠️</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues?q=author%3Ajuzerzarif" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://everlong.org/"><img src="https://avatars.githubusercontent.com/u/454175?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Julien Wajsberg</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=julienw" title="Code">💻</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=julienw" title="Tests">⚠️</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/G-Rath"><img src="https://avatars.githubusercontent.com/u/3151613?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gareth Jones</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=G-Rath" title="Tests">⚠️</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=G-Rath" title="Code">💻</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/issues?q=author%3AG-Rath" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/huyenltnguyen"><img src="https://avatars.githubusercontent.com/u/25715018?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Huyen Nguyen</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=huyenltnguyen" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/mdotwills"><img src="https://avatars.githubusercontent.com/u/5505611?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Matthew</b></sub></a><br /><a href="https://github.com/testing-library/eslint-plugin-jest-dom/issues?q=author%3Amdotwills" title="Bug reports">🐛</a> <a href="https://github.com/testing-library/eslint-plugin-jest-dom/commits?author=mdotwills" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/G-Rath"><img src="https://avatars.githubusercontent.com/u/3151613?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gareth Jones</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=G-Rath" title="Tests">⚠️</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=G-Rath" title="Code">💻</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues?q=author%3AG-Rath" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/huyenltnguyen"><img src="https://avatars.githubusercontent.com/u/25715018?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Huyen Nguyen</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=huyenltnguyen" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/mdotwills"><img src="https://avatars.githubusercontent.com/u/5505611?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Matthew</b></sub></a><br /><a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues?q=author%3Amdotwills" title="Bug reports">🐛</a> <a href="https://github.com/G-Rath/eslint-plugin-jest-dom-ya/commits?author=mdotwills" title="Code">💻</a></td>
   </tr>
 </table>
 
@@ -205,24 +205,24 @@ MIT
 <!-- prettier-ignore-start -->
 [npm]: https://www.npmjs.com
 [node]: https://nodejs.org
-[build-badge]: https://img.shields.io/github/actions/workflow/status/testing-library/eslint-plugin-jest-dom/validate.yml?logo=github&style=flat-square
-[build]: https://github.com/testing-library/eslint-plugin-jest-dom/actions?query=workflow%3Avalidate
-[coverage-badge]: https://img.shields.io/codecov/c/github/testing-library/eslint-plugin-jest-dom.svg?style=flat-square
-[coverage]: https://codecov.io/github/testing-library/eslint-plugin-jest-dom
-[version-badge]: https://img.shields.io/npm/v/eslint-plugin-jest-dom.svg?style=flat-square
-[package]: https://www.npmjs.com/package/eslint-plugin-jest-dom
-[downloads-badge]: https://img.shields.io/npm/dm/eslint-plugin-jest-dom.svg?style=flat-square
-[npmtrends]: http://www.npmtrends.com/eslint-plugin-jest-dom
-[license-badge]: https://img.shields.io/npm/l/eslint-plugin-jest-dom.svg?style=flat-square
-[license]: https://github.com/testing-library/eslint-plugin-jest-dom/blob/main/LICENSE
+[build-badge]: https://img.shields.io/github/actions/workflow/status/G-Rath/eslint-plugin-jest-dom-ya/validate.yml?logo=github&style=flat-square
+[build]: https://github.com/G-Rath/eslint-plugin-jest-dom-ya/actions?query=workflow%3Avalidate
+[coverage-badge]: https://img.shields.io/codecov/c/github/G-Rath/eslint-plugin-jest-dom-ya.svg?style=flat-square
+[coverage]: https://codecov.io/github/G-Rath/eslint-plugin-jest-dom-ya
+[version-badge]: https://img.shields.io/npm/v/eslint-plugin-jest-dom-ya.svg?style=flat-square
+[package]: https://www.npmjs.com/package/eslint-plugin-jest-dom-ya
+[downloads-badge]: https://img.shields.io/npm/dm/eslint-plugin-jest-dom-ya.svg?style=flat-square
+[npmtrends]: http://www.npmtrends.com/eslint-plugin-jest-dom-ya
+[license-badge]: https://img.shields.io/npm/l/eslint-plugin-jest-dom-ya.svg?style=flat-square
+[license]: https://github.com/G-Rath/eslint-plugin-jest-dom-ya/blob/main/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc]: https://github.com/testing-library/eslint-plugin-jest-dom/blob/main/other/CODE_OF_CONDUCT.md
+[coc]: https://github.com/G-Rath/eslint-plugin-jest-dom-ya/blob/main/other/CODE_OF_CONDUCT.md
 [emojis]: https://github.com/all-contributors/all-contributors#emoji-key
 [all-contributors]: https://github.com/all-contributors/all-contributors
-[all-contributors-badge]: https://img.shields.io/github/all-contributors/testing-library/eslint-plugin-jest-dom?style=flat-square
-[bugs]: https://github.com/testing-library/eslint-plugin-jest-dom/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Acreated-desc+label%3Abug
-[requests]: https://github.com/testing-library/eslint-plugin-jest-dom/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement
-[good-first-issue]: https://github.com/testing-library/eslint-plugin-jest-dom/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement+label%3A%22good+first+issue%22
+[all-contributors-badge]: https://img.shields.io/github/all-contributors/G-Rath/eslint-plugin-jest-dom-ya?style=flat-square
+[bugs]: https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Acreated-desc+label%3Abug
+[requests]: https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement
+[good-first-issue]: https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement+label%3A%22good+first+issue%22
 <!-- prettier-ignore-end -->

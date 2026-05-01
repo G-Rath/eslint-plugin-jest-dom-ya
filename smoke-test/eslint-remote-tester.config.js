@@ -23,6 +23,6 @@ module.exports = {
         jsx: true,
       },
     },
-    extends: ["plugin:jest-dom/all"],
+    extends: ["plugin:jest-dom-ya/all"],
   },
 };

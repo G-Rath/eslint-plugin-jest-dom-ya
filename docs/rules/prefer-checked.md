@@ -1,4 +1,4 @@
-# Prefer toBeChecked over checking attributes (`jest-dom/prefer-checked`)
+# Prefer toBeChecked over checking attributes (`jest-dom-ya/prefer-checked`)
 
 💼 This rule is enabled in the ✅ `recommended` config.
 

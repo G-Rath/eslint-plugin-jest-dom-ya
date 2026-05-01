@@ -1,4 +1,4 @@
-# Prefer .toBeInTheDocument() for asserting the existence of a DOM node (`jest-dom/prefer-in-document`)
+# Prefer .toBeInTheDocument() for asserting the existence of a DOM node (`jest-dom-ya/prefer-in-document`)
 
 💼 This rule is enabled in the ✅ `recommended` config.
 

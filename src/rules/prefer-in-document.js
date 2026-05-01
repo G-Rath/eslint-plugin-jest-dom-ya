@@ -113,7 +113,7 @@ export const create = (context) => {
     // | *By* query    | Did you mean to use *AllBy* | Replace with .not.toBeInTheDocument() |
     // | *AllBy* query | Correct                     | Correct
     //
-    // @see https://github.com/testing-library/eslint-plugin-jest-dom/issues/171
+    // @see https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues/171
     //
     if (matcherNode.name === "toHaveLength" && matcherArguments.length === 1) {
       const lengthValue = getLengthValue(matcherArguments);

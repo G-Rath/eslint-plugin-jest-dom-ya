@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-jest-dom",
+  "name": "eslint-plugin-jest-dom-ya",
   "version": "0.0.0-semantically-released",
   "description": "ESLint plugin to follow best practices and anticipate common mistakes when writing tests with jest-dom",
   "keywords": [
@@ -14,13 +14,13 @@
     "DTL",
     "tests"
   ],
-  "homepage": "https://github.com/testing-library/eslint-plugin-jest-dom#readme",
+  "homepage": "https://github.com/G-Rath/eslint-plugin-jest-dom-ya#readme",
   "bugs": {
-    "url": "https://github.com/testing-library/eslint-plugin-jest-dom/issues"
+    "url": "https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/testing-library/eslint-plugin-jest-dom"
+    "url": "https://github.com/G-Rath/eslint-plugin-jest-dom-ya"
   },
   "license": "MIT",
   "author": "Ben Monro",

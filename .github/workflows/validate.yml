@@ -97,7 +97,7 @@ jobs:
   release:
     needs: main
     runs-on: ubuntu-latest
-    if: ${{ github.repository == 'testing-library/eslint-plugin-jest-dom' &&
+    if: ${{ github.repository == 'G-Rath/eslint-plugin-jest-dom-ya' &&
       contains('refs/heads/main,refs/heads/beta,refs/heads/next,refs/heads/alpha',
       github.ref) && github.event_name == 'push' }}
     steps:

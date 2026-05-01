@@ -1,4 +1,4 @@
-# Prefer toBeDisabled or toBeEnabled over checking attributes (`jest-dom/prefer-enabled-disabled`)
+# Prefer toBeDisabled or toBeEnabled over checking attributes (`jest-dom-ya/prefer-enabled-disabled`)
 
 💼 This rule is enabled in the ✅ `recommended` config.
 

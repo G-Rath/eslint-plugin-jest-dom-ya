@@ -1,4 +1,4 @@
-# Prefer toHaveValue over checking element.value (`jest-dom/prefer-to-have-value`)
+# Prefer toHaveValue over checking element.value (`jest-dom-ya/prefer-to-have-value`)
 
 💼 This rule is enabled in the ✅ `recommended` config.
 

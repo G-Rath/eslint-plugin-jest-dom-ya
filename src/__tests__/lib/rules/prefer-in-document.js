@@ -130,7 +130,7 @@ const valid = [
   expect(element).toBeInTheDocument`,
 
   // *AllBy* queries with `.toHaveLength(1)` is valid
-  // see conclusion at https://github.com/testing-library/eslint-plugin-jest-dom/issues/171#issuecomment-895074086
+  // see conclusion at https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues/171#issuecomment-895074086
   `expect(screen.getAllByRole('foo')).toHaveLength(1)`,
   `expect(await screen.findAllByRole('foo')).toHaveLength(1)`,
   `expect(getAllByRole('foo')).toHaveLength(1)`,
@@ -157,7 +157,7 @@ const valid = [
     );`,
 
   // *AllBy* queries with `.toHaveLength(0)` is valid
-  // see conclusion at https://github.com/testing-library/eslint-plugin-jest-dom/issues/171#issuecomment-895074086
+  // see conclusion at https://github.com/G-Rath/eslint-plugin-jest-dom-ya/issues/171#issuecomment-895074086
   `expect(screen.queryAllByTestId("foo")).toHaveLength(0)`,
   `expect(queryAllByText('foo')).toHaveLength(0)`,
   `let foo;
